@@ -1,0 +1,63 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC4051PW,112
+D 74HC4051; 74HCT4051 - 8-channel analog multiplexer/demultiplexer@en-us
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT4051.pdf
+$ENDCMP
+#
+$CMP ACS712ELCTR-20A-T
+D ACS712ELCTR-20A-T, Hall Effect Sensor 5V 8-Pin SOIC, SOIC N
+F https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-0/sf-000553.pdf
+$ENDCMP
+#
+$CMP AMS1117
+D 1117
+F https://datasheet.lcsc.com/szlcsc/Advanced-Monolithic-Systems-AMS-AMS1117-ADJ_C6188.pdf
+$ENDCMP
+#
+$CMP AO3401A
+D 30V P-Channel MOSFET
+F http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf
+$ENDCMP
+#
+$CMP CA3140AEZ
+D Gen Purpose OP Amp Single 18V/36V
+F http://componentsearchengine.com/Datasheets/1/CA3140AEZ.pdf
+$ENDCMP
+#
+$CMP CD4060BE
+D CMOS 14-Stage Ripple-Carry Binary Counter/Divider and Oscillator
+F http://www.ti.com/lit/gpn/cd4060b
+$ENDCMP
+#
+$CMP LM324AN_NOPB
+D Low power general-purpose quad operational amplifier
+F http://www.ti.com/lit/gpn/lm324-n
+$ENDCMP
+#
+$CMP LM35CAZ_NOPB
+D LM35 CAZ temp sensor IC,-40to+110degC Texas Instruments LM35CAZ/NOPB Temperature Sensor 3-Pin TO-92, -40 ??? +110 degC
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100035646.pdf
+$ENDCMP
+#
+$CMP PCF8574DW
+D PCF8574DW, I/O Expander, 16-Pin SOIC
+F http://www.ti.com/lit/ds/symlink/pcf8574.pdf
+$ENDCMP
+#
+$CMP PEC11R-4225F-S0024
+D Incremental encoder 24 detents 24 pulses
+F https://componentsearchengine.com/Datasheets/1/PEC11R-4225F-S0024.pdf
+$ENDCMP
+#
+$CMP STPS160UY
+D Schottky Diodes & Rectifiers Auto pwr Schottky 1A 60V VRRM 0.57VF
+F https://www.st.com/resource/en/datasheet/stps160-y.pdf
+$ENDCMP
+#
+$CMP TL2230OAF100
+D Tactile Switches 100mA 30VDCMomentary
+F https://pt.mouser.com/datasheet/2/140/TL2201-346399.pdf
+$ENDCMP
+#
+#End Doc Library
