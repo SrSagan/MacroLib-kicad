@@ -44,4 +44,14 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model "${KICAD6_3DMODEL_DIR}/3dmacrolib/DIP-8_W7.62mm_Socket.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD6_3DMODEL_DIR}/3dmacrolib/DIP-8_W7.62mm.step"
+    (offset (xyz 0 0 3.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
