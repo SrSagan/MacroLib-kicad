@@ -7903,7 +7903,7 @@
     (property "Value" "CA3140AEZ" (id 1) (at 5.08 -5.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 5.08 -7.62 0)
+    (property "Footprint" "DIP794W56P254L958H533Q8N" (id 2) (at 5.08 -7.62 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "http://componentsearchengine.com/Datasheets/1/CA3140AEZ.pdf" (id 3) (at 5.08 -10.16 0)
