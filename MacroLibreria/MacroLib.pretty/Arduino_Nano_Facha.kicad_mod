@@ -64,7 +64,7 @@
   (pad "28" thru_hole oval (at -12.7 -7.62) (size 1.524 2.1971) (drill 0.99822) (layers *.Cu *.Mask "F.SilkS") (tstamp 2c9f0137-26b4-4387-a2d7-28ca6f1ef4f6))
   (pad "29" thru_hole oval (at -15.24 -7.62) (size 1.524 2.1971) (drill 0.99822) (layers *.Cu *.Mask "F.SilkS") (tstamp a00b011a-6bce-4adc-95f2-831d354c34b1))
   (pad "30" thru_hole oval (at -17.78 -7.62) (size 1.524 2.1971) (drill 0.99822) (layers *.Cu *.Mask "F.SilkS") (tstamp d9f1df89-9d22-487d-8e9f-67a794f0d6e3))
-  (model "3dmacrolib/Arduino_Nano_pbs.step"
+  (model "Arduino_Nano_pbs.step"
     (offset (xyz -17.8 -7.6 3.15))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
