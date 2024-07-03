@@ -20809,7 +20809,7 @@
 			)
 		)
 		(property "Value" "LM324"
-			(at 2.54 5.08 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20826,7 +20826,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/lm324-n"
-			(at 0 7.62 0)
+			(at 19.05 -3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20834,8 +20834,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "Low-Power, Quad Operational Amplifiers, DIP-14/SOIC-14/TSSOP-14"
+			(at 35.814 -6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20867,24 +20867,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -7.62 90)
-				(length 3.81)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -20928,24 +20910,6 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 7.62 270)
-				(length 3.81)
-				(name "V+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "LM324_2_1"
 			(polyline
@@ -20958,42 +20922,6 @@
 				)
 				(fill
 					(type background)
-				)
-			)
-			(pin passive line
-				(at -2.54 -7.62 90)
-				(length 3.81)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 7.62 270)
-				(length 3.81)
-				(name "V+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 			(pin input line
@@ -21082,42 +21010,6 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 -7.62 90)
-				(length 3.81)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 7.62 270)
-				(length 3.81)
-				(name "V+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin output line
 				(at 7.62 0 180)
 				(length 2.54)
@@ -21166,24 +21058,6 @@
 				)
 				(fill
 					(type background)
-				)
-			)
-			(pin passive line
-				(at -2.54 -7.62 90)
-				(length 3.81)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 			(pin input line
@@ -21240,58 +21114,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 7.62 270)
-				(length 3.81)
-				(name "V+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "LM324_5_1"
-			(polyline
-				(pts
-					(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin output line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
-				(at -2.54 -7.62 90)
+				(at 0 -7.62 90)
 				(length 3.81)
 				(name "V-"
 					(effects
@@ -21308,44 +21134,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 -2.54 0)
-				(length 2.54)
-				(name "-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -7.62 2.54 0)
-				(length 2.54)
-				(name "+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
-				(at -2.54 7.62 270)
+				(at 0 7.62 270)
 				(length 3.81)
 				(name "V+"
 					(effects
@@ -26263,7 +26053,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0.635 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26274,7 +26064,7 @@
 		(symbol "Schottky_0_1"
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -1.27 -1.27)
+					(xy -0.635 0.635) (xy -0.635 -0.635) (xy 0.635 0) (xy -0.635 0.635)
 				)
 				(stroke
 					(width 0)
@@ -26286,7 +26076,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.635 0.635) (xy 0.635 1.27)
+					(xy 0.635 0) (xy 0.635 -0.762) (xy 0.254 -0.762) (xy 0.254 -0.508)
 				)
 				(stroke
 					(width 0)
@@ -26298,19 +26088,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 0.635 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -1.27) (xy 1.905 -1.27) (xy 1.905 -0.635)
+					(xy 0.635 0) (xy 0.635 0.762) (xy 1.016 0.762) (xy 1.016 0.508)
 				)
 				(stroke
 					(width 0)
@@ -26322,33 +26100,9 @@
 			)
 		)
 		(symbol "Schottky_1_1"
-			(polyline
-				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 			(pin passive line
-				(at -5.08 0 0)
-				(length 3.81)
+				(at -2.54 0 0)
+				(length 1.905)
 				(name "A"
 					(effects
 						(font
@@ -26365,8 +26119,8 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
-				(length 3.81)
+				(at 2.54 0 180)
+				(length 1.905)
 				(name "K"
 					(effects
 						(font
