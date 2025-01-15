@@ -199,7 +199,7 @@
 	)
 	(fp_line
 		(start 14.5 7.5)
-		(end 14.5 -7)
+		(end 14.5 -7.5)
 		(stroke
 			(width 0.3048)
 			(type solid)
@@ -228,6 +228,56 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "14172198-4614-4959-94ac-5fefa22e197b")
+	)
+	(fp_line
+		(start -12.5 -50.5)
+		(end 12.5 -50.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "09570a31-4381-456a-bb83-a27ec9b4703b")
+	)
+	(fp_line
+		(start -12.5 -7.5)
+		(end -12.5 -50.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "65632dcc-95c1-4e9d-89a2-d17e252c4eb5")
+	)
+	(fp_line
+		(start 0 -7.5)
+		(end -12.5 -7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "a4a0873f-952c-40b9-a7c5-eaabdaf51292")
+	)
+	(fp_line
+		(start 12.5 -50.5)
+		(end 12.5 -7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "292ec041-5ba4-4f25-bfa8-93ebf0fc14ad")
+	)
+	(fp_line
+		(start 12.5 -7.5)
+		(end 0 -7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6a212772-b2ec-4950-a327-791e6f27017e")
 	)
 	(pad "" thru_hole circle
 		(at 10.25 0)
