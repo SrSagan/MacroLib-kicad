@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "RECTIFIER_DIODE"
+	(symbol "Diode"
 		(pin_numbers hide)
 		(pin_names
 			(offset 1.016) hide)
@@ -17,7 +17,7 @@
 				)
 			)
 		)
-		(property "Value" "RECTIFIER_DIODE"
+		(property "Value" "Diode"
 			(at -0.254 1.524 0)
 			(effects
 				(font
@@ -59,7 +59,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "RECTIFIER_DIODE_0_1"
+		(symbol "Diode_0_1"
 			(polyline
 				(pts
 					(xy -0.635 -0.635) (xy 0.635 0)
@@ -97,7 +97,133 @@
 				)
 			)
 		)
-		(symbol "RECTIFIER_DIODE_1_1"
+		(symbol "Diode_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 1.905)
+				(name "A"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 1.905)
+				(name "K"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Schottky"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Schottky"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0.635 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Schottky_0_1"
+			(polyline
+				(pts
+					(xy 0.635 0) (xy 0.635 -0.762) (xy 0.254 -0.762) (xy 0.254 -0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 0) (xy 0.635 0.762) (xy 1.016 0.762) (xy 1.016 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Schottky_1_1"
+			(polyline
+				(pts
+					(xy -0.635 0.635) (xy -0.635 -0.635) (xy 0.635 0) (xy -0.635 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(pin passive line
 				(at -2.54 0 0)
 				(length 1.905)
