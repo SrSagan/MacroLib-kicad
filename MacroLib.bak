@@ -13735,7 +13735,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 13.97 20.32 0)
+			(at 0 17.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13743,7 +13743,7 @@
 			)
 		)
 		(property "Value" "CONN_01X11"
-			(at 12.7 15.24 0)
+			(at 0 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13751,7 +13751,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 16.51 0)
+			(at -1.27 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13760,7 +13760,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 16.51 0)
+			(at -1.27 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13769,7 +13769,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 16.51 0)
+			(at -1.27 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13779,8 +13779,8 @@
 		)
 		(symbol "CONN_01X11_1_1"
 			(rectangle
-				(start 1.27 -13.843)
-				(end 2.794 -14.097)
+				(start -1.27 -12.573)
+				(end 0.254 -12.827)
 				(stroke
 					(width 0)
 					(type default)
@@ -13790,8 +13790,8 @@
 				)
 			)
 			(rectangle
-				(start 1.27 -11.303)
-				(end 2.794 -11.557)
+				(start -1.27 -10.033)
+				(end 0.254 -10.287)
 				(stroke
 					(width 0)
 					(type default)
@@ -13801,8 +13801,8 @@
 				)
 			)
 			(rectangle
-				(start 1.27 -8.763)
-				(end 2.794 -9.017)
+				(start -1.27 -7.493)
+				(end 0.254 -7.747)
 				(stroke
 					(width 0)
 					(type default)
@@ -13812,8 +13812,8 @@
 				)
 			)
 			(rectangle
-				(start 1.27 -6.223)
-				(end 2.794 -6.477)
+				(start -1.27 -4.953)
+				(end 0.254 -5.207)
 				(stroke
 					(width 0)
 					(type default)
@@ -13823,8 +13823,8 @@
 				)
 			)
 			(rectangle
-				(start 1.27 -3.683)
-				(end 2.794 -3.937)
+				(start -1.27 -2.413)
+				(end 0.254 -2.667)
 				(stroke
 					(width 0)
 					(type default)
@@ -13834,8 +13834,8 @@
 				)
 			)
 			(rectangle
-				(start 1.27 -1.143)
-				(end 2.794 -1.397)
+				(start -1.27 0.127)
+				(end 0.254 -0.127)
 				(stroke
 					(width 0)
 					(type default)
@@ -13845,8 +13845,8 @@
 				)
 			)
 			(rectangle
-				(start 1.27 1.397)
-				(end 2.794 1.143)
+				(start -1.27 2.667)
+				(end 0.254 2.413)
 				(stroke
 					(width 0)
 					(type default)
@@ -13856,8 +13856,8 @@
 				)
 			)
 			(rectangle
-				(start 1.27 3.937)
-				(end 2.794 3.683)
+				(start -1.27 5.207)
+				(end 0.254 4.953)
 				(stroke
 					(width 0)
 					(type default)
@@ -13867,8 +13867,8 @@
 				)
 			)
 			(rectangle
-				(start 1.27 6.477)
-				(end 2.794 6.223)
+				(start -1.27 7.747)
+				(end 0.254 7.493)
 				(stroke
 					(width 0)
 					(type default)
@@ -13878,8 +13878,8 @@
 				)
 			)
 			(rectangle
-				(start 1.27 9.017)
-				(end 2.794 8.763)
+				(start -1.27 10.287)
+				(end 0.254 10.033)
 				(stroke
 					(width 0)
 					(type default)
@@ -13889,8 +13889,8 @@
 				)
 			)
 			(rectangle
-				(start 1.27 11.557)
-				(end 2.794 11.303)
+				(start -1.27 12.827)
+				(end 0.254 12.573)
 				(stroke
 					(width 0)
 					(type default)
@@ -13900,8 +13900,8 @@
 				)
 			)
 			(rectangle
-				(start 1.27 12.7)
-				(end 3.81 -15.24)
+				(start -1.27 13.97)
+				(end 1.27 -13.97)
 				(stroke
 					(width 0)
 					(type default)
@@ -13911,7 +13911,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 11.43 0)
+				(at -5.08 12.7 0)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -13929,7 +13929,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -13.97 0)
+				(at -5.08 -10.16 0)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -13947,7 +13947,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -11.43 0)
+				(at -5.08 -12.7 0)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -13956,7 +13956,7 @@
 						)
 					)
 				)
-				(number "10"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13965,7 +13965,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 8.89 0)
+				(at -5.08 10.16 0)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -13983,7 +13983,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 6.35 0)
+				(at -5.08 7.62 0)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -14001,7 +14001,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 3.81 0)
+				(at -5.08 5.08 0)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -14019,7 +14019,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 1.27 0)
+				(at -5.08 2.54 0)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -14037,7 +14037,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -1.27 0)
+				(at -5.08 0 0)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -14055,7 +14055,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -3.81 0)
+				(at -5.08 -2.54 0)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -14073,7 +14073,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -6.35 0)
+				(at -5.08 -5.08 0)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -14091,7 +14091,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -8.89 0)
+				(at -5.08 -7.62 0)
 				(length 3.81)
 				(name "~"
 					(effects
